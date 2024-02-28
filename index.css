@@ -11,6 +11,12 @@
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
 }
+.navbutton{
+  text-align: center;
+  width: 10%;
+  height: 25px;
+  margin: auto;
+}
 #banner{
   vertical-align: center;
   background-image:url('../../images/index_background.jpg');
