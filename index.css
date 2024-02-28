@@ -27,7 +27,7 @@
   margin-right: 20px;
 }
 .bannertext{
-  width: 500px;
+  width: calc(100% + 10px);
   text-align: center;
   background-color:black;
   color:white;
