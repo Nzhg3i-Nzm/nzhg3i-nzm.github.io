@@ -17,6 +17,7 @@
   height: 25px;
   background-color: grey;
   border-radius: 10px;
+  cursor: pointer;
 }
 #banner{
   vertical-align: center;
