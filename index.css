@@ -13,6 +13,7 @@
 }
 .navbutton{
   text-align: center;
+  vertical-align: center;
   width: 10%;
   height: 25px;
   background-color: grey;
