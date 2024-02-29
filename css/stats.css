@@ -1,1 +1,12 @@
-
+#bio{
+  margin: 10px;
+}
+#main-body{
+  border-radius: 15px;
+  background-color: tan;
+}
+#textbody{
+  background-color: white;
+  margin-left: 20px;
+  margin-right: 20px;
+}
