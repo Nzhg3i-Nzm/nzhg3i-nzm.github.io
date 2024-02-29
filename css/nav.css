@@ -1,0 +1,17 @@
+#navbar{
+  height:30px;
+  background-color: powderblue;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+.navbutton{
+  text-align: center;
+  vertical-align: center;
+  margin-bottom: -5px;
+  width: 10%;
+  height: 25px;
+  background-color: grey;
+  border-radius: 10px;
+  cursor: pointer;
+  display: inline-block;
+}
