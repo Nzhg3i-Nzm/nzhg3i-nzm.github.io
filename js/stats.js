@@ -5,7 +5,7 @@ async function getVulns(){
   return JSON.stringify(vulns);
 }
 
-function createTable(){
+async function createTable(){
   var v = await getVulns();
   var vulns = JSON.parse(v);
   const keys = Object.keys(vulns);
