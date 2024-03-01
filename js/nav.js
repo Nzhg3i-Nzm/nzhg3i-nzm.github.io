@@ -1,17 +1,9 @@
-//insertBefore(parent, childelement)
-/*
-<div id="navbar">
-  <center>
-    <div class="navbutton" onClick="window.location.href='../../index.html'">
-      <p style="display: inline;">Home</p>
-    </div>
-    <div class="navbutton" onClick="window.location.href='../../stats.html'">
-      <p style="display: inline;">Stats</p>
-    </div>
-  </center>
-</div>
-*/
+//takes 2 args, parent is the parent, child is the element to insert the navbar above
 function nav(parent, child, words, loc){
+  let words = ["Home", "Stats"];
+  let loc = ["home.html", "stats.html"];
+  //words is words for the buttons, loc is locations for the buttons.
+  //words and loc must have the same number of elements
   let top = document.getElementById(parent);
   let after = document.getElementById(child);
   let navdiv = document.createElement("div");
@@ -21,7 +13,7 @@ function nav(parent, child, words, loc){
     let button = document.createElement("div");
     button.setAttribute("class", "navbutton");
     let l = "../../"+words[w];
-    button.setAttribute("onclick", "window.location.href="+l);
+    button.setAttribute("onclick", "window.location.href='"+l+"'");
     let text = document.createElement("p");
     text.setAttribute("style", "display: inline;");
     text.innerHTML=words[w];
