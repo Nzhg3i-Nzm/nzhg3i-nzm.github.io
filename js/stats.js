@@ -13,7 +13,8 @@ async function createTable(){
 
   for (key in keys){
     //get all keys
-    values.push(vulns.keys.toString());
+    let name = keys[key]
+    values.push(vulns.[name].toString());
   }
 
   for (let i=0; i<keys.length; i++){
