@@ -12,7 +12,7 @@ function makeNavbar(parent, child){
   for (w in words){
     let button = document.createElement("div");
     button.setAttribute("class", "navbutton");
-    let l = "../../"+words[w];
+    let l = "../../"+loc[w];
     button.setAttribute("onclick", "window.location.href='"+l+"'");
     let text = document.createElement("p");
     text.setAttribute("style", "display: inline;");
