@@ -1,9 +1,9 @@
 {
-  "API Misconfig.":"2",
-  "Business Logic Error":"1",
-  "Captcha Bypass": "1",
-  "Cleartext Transmission of Sens. Info.":"1",
-  "Clickjacking": "1",
-  "Content Spoofing/HTML Injection": "8",
-  "Data Spoofing (views, likes, etc.)": "1"
+  "API Misconfig.":2,
+  "Business Logic Error":1,
+  "Captcha Bypass": 1,
+  "Cleartext Transmission of Sens. Info.":1,
+  "Clickjacking": 1,
+  "Content Spoofing/HTML Injection": 8,
+  "Data Spoofing (views, likes, etc.)": 1
 }
