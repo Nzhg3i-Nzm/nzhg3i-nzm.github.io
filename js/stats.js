@@ -9,7 +9,7 @@ function createTable(){
   var vulns = getVulns();
   const v_obj = JSON.parse(vulns);
   const keys = Object.keys(v_obj);
-  var values[];
+  var values = new Array();
 
   for (key in keys){
     //get all keys
