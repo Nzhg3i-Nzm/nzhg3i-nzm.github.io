@@ -26,4 +26,5 @@ function createTable(){
     tr.appendChild(td);
     tr.appendChild(td2);
     t.appendChild(tr);
+  }
 }
