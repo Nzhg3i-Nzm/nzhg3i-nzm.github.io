@@ -1,4 +1,4 @@
-//takes 2 args, parent is the parent, child is the element to insert the navbar above
+//takes 2 args, parent is the id of the parent element, child is the id of the element to insert the navbar above
 function nav(parent, child){
   let words = ["Home", "Stats"];
   let loc = ["home.html", "stats.html"];
