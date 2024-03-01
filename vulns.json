@@ -5,5 +5,21 @@
   "Cleartext Transmission of Sens. Info.":1,
   "Clickjacking": 1,
   "Content Spoofing/HTML Injection": 8,
-  "Data Spoofing (views, likes, etc.)": 1
+  "Data Spoofing (views, likes, etc.)": 1,
+  "DOS": 2,
+  "IDOR": 5,
+  "Information Disclosure": 1,
+  "Insecure Access Control": 3,
+  "Insecure Storage of Sens. Data": 5,
+  "No Rate Limiting": 2,
+  "Open Redirect": 3,
+  "Session Hijacking": 1,
+  "SQL Injection": 1,
+  "SSRF": 1,
+  "SSRF, Blind": 3,
+  "Subdomain Takeover": 0,
+  "Unrestricted File Upload": 2,
+  "Username Enumeration": 1,
+  "XSS, Reflected": 5,
+  "XSS, Stored": 0
 }
