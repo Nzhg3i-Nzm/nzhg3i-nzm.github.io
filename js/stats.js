@@ -1,7 +1,6 @@
 async function getVulns(){
   const res = await fetch("../../vulns.json");
   const vulns = await res.json();
-  console.log(vulns);
   return JSON.stringify(vulns);
 }
 
