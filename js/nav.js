@@ -1,5 +1,5 @@
 //takes 2 args, parent is the id of the parent element, child is the id of the element to insert the navbar above
-function nav(parent, child){
+function makeNavbar(parent, child){
   let words = ["Home", "Stats"];
   let loc = ["index.html", "stats.html"];
   //words is words for the buttons, loc is locations for the buttons.
