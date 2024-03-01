@@ -2,18 +2,17 @@ async function getVulns(){
   const res = await fetch("../../vulns.json");
   const vulns = await res.json();
   console.log(vulns);
-  return vulns;
+  return JSON.stringify(vulns);
 }
 
 function createTable(){
-  var vulns = getVulns();
-  const v_obj = JSON.parse(vulns);
-  const keys = Object.keys(v_obj);
+  var vulns = JSON.parse(getVulns());
+  const keys = Object.keys(vulns);
   var values = new Array();
 
   for (key in keys){
     //get all keys
-    values.push(v_obj.key);
+    values.push(vulns.key);
   }
 
   for (let i=0; i<keys.length; i++){
