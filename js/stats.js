@@ -25,5 +25,5 @@ function createTable(){
     td2.innerHTML=values[key];
     tr.appendChild(td);
     tr.appendChild(td2);
-    t.appendCHild(tr);
+    t.appendChild(tr);
 }
