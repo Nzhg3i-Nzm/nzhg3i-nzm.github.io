@@ -12,7 +12,7 @@
 </div>
 */
 function nav(parent, child, words, loc){
-  let parent = document.getElementById(parent);
+  let top = document.getElementById(parent);
   let after = document.getElementById(child);
   let navdiv = document.createElement("div");
   navdiv.setAttribute("id", "navbar");
@@ -25,5 +25,9 @@ function nav(parent, child, words, loc){
     let text = document.createElement("p");
     text.setAttribute("style", "display: inline;");
     text.innerHTML=words[w];
+    button.append(text);
+    c.append(button)
   }
+  navdiv.append(c);
+  top.insertBefore(navdiv, after)
 }
