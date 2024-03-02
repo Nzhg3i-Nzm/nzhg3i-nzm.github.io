@@ -22,7 +22,7 @@
 #textbody{
   background-color: #04060D;
   color: white;
-  font: Lucida Console;
+  font-family: Lucida Console;
   margin-left: 20px;
   margin-right: 20px;
 }
