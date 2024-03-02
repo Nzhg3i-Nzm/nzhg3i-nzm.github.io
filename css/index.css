@@ -4,6 +4,8 @@
 #main-body{
   border-radius: 15px;
   background-color: #143AA2;
+  border-color: white;
+  border-style: solid;
 }
 #banner{
   vertical-align: center;
