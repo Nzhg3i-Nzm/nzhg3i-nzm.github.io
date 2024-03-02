@@ -15,7 +15,7 @@ function makeNavbar(parent, child){
     let l = "../../"+loc[w];
     button.setAttribute("onclick", "window.location.href='"+l+"'");
     let text = document.createElement("p");
-    text.setAttribute("style", "display: inline;");
+    text.setAttribute("style", "display: inline; font-family: 'Lucida Console'");
     text.innerHTML=words[w];
     button.append(text);
     c.append(button)
