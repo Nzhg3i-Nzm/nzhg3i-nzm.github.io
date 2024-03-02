@@ -1,14 +1,14 @@
 #main-body{
   border-radius: 15px;
   background-color: #143AA2;
+  border-color: white;
+  border-style: solid;
 }
 #main-area{
   background-color: white;
   margin: 20px;
   border-radius: 10px;
   background-color: white;
-  border-color: white;
-  border-style: solid;
 }
 #tablecontainer{
   margin: 10px;
