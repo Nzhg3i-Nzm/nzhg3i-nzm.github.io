@@ -1,12 +1,12 @@
 #main-body{
   border-radius: 15px;
-  background-color: tan;
+  background-color: #143AA2;
 }
 #main-area{
   background-color: white;
   margin: 20px;
   border-radius: 10px;
-  background-color: #143AA2;
+  background-color: white;
   border-color: white;
   border-style: solid;
 }
