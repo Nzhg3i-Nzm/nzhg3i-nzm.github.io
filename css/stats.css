@@ -8,24 +8,24 @@
   background-color: white;
   margin: 20px;
   border-radius: 10px;
-  background-color: white;
+  background-color: #272829;
 }
 #tablecontainer{
   margin: 10px;
 }
 
 table {
-  font-family: arial, sans-serif;
+  font-family: "Lucida Console";
   border-collapse: collapse;
   width: 100%;
 }
 
 td, th {
-  border: 1px solid #dddddd;
+  border: 1px solid #272829;
   text-align: left;
   padding: 8px;
 }
 
 tr:nth-child(even) {
-  background-color: #dddddd;
+  background-color: #171717;
 }
