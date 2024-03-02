@@ -20,6 +20,8 @@
   background-color:black;
   color:white;
   font-family: "Lucida Console";
+  padding-top: 1px;
+  padding-bottom: 1px;
 }
 #textbody{
   background-color: #04060D;
