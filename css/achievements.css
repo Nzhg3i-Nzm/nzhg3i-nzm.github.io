@@ -13,3 +13,7 @@
 .image{
   float: left;
 }
+.imageText{
+  float: right;
+  font-family: 'Kode Mono';
+}
