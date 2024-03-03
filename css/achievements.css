@@ -15,5 +15,6 @@
 }
 .imageText{
   float: right;
+  position: absolute;
   font-family: 'Kode Mono';
 }
