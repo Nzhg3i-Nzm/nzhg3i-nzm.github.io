@@ -12,6 +12,7 @@
 }
 .image{
   display: block;
+  vertical-align: middle;
 }
 .imageText{
   font-family: 'Kode Mono';
