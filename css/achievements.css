@@ -12,8 +12,10 @@
 }
 .image{
   display: block;
+  float: left;
 }
 .imageText{
   font-family: 'Kode Mono';
   color: white;
+  float: right;
 }
