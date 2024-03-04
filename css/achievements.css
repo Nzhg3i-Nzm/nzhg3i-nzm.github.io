@@ -12,6 +12,21 @@
   display: block;
   overflow: hidden;
 }
+#imagebox{
+  float: left;
+  margin-left: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: inline-block;
+}
+#textbox{
+  float: right;
+  margin-right: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: inline-block;
+  text-align: center;
+}
 .image{
   display: block;
 }
