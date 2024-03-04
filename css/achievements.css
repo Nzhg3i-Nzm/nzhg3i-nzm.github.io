@@ -1,6 +1,6 @@
 #main-body{
   border-radius: 15px;
-  background-color: #143AA2;
+  background-color: #04060D;
   border-color: white;
   border-style: solid;
 }
@@ -15,4 +15,5 @@
 }
 .imageText{
   font-family: 'Kode Mono';
+  color: white;
 }
