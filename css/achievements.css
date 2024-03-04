@@ -26,11 +26,9 @@
   margin-bottom: 20px;
   display: inline-block;
   text-align: center;
+  font-family: 'Kode Mono';
+  color: white;
 }
 .image{
   display: block;
-}
-.imageText{
-  font-family: 'Kode Mono';
-  color: white;
 }
