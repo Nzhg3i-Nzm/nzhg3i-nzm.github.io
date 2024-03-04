@@ -10,6 +10,7 @@
   border-radius: 10px;
   background-color: #04060D;
   display: block;
+  overflow: hidden;
 }
 .image{
   display: block;
