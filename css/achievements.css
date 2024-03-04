@@ -9,6 +9,7 @@
   margin: 20px;
   border-radius: 10px;
   background-color: #04060D;
+  display: block;
 }
 .image{
   display: block;
