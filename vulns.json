@@ -10,7 +10,7 @@
   "IDOR": 5,
   "Information Disclosure": 1,
   "Insecure Access Control": 3,
-  "Insecure Storage of Sens. Data": 5,
+  "Insecure Storage of Sens. Data": 6,
   "No Rate Limiting": 2,
   "Open Redirect": 3,
   "Session Hijacking": 1,
