@@ -6,11 +6,7 @@ function makeNavbar(parent, child){
   //words and loc must have the same number of elements
   let top = document.getElementById(parent);
   let after = document.getElementById(child);
-  let navdiv = document.createElement("img");
-  navdiv.setAttribute("id", "navbar");
-  navdiv.setAttribute("src", "../../images/navimage.jpg");
-  navdiv.setAttribute("style", "visibility: hidden; z-index: 9; position: absolute; border-radius: 10px; width: 375px; height: 187.5px; top: 50%; left: 50%; transform: translate(-50%, -50%);");
-  navdiv.setAttribute("class", "full-nav");
+  let navdiv = document.createElement("div");
   let c = document.createElement("center");
   for (w in words){
     let button = document.createElement("div");
@@ -29,6 +25,13 @@ function makeNavbar(parent, child){
   openclose.innerHTML = "Navigation";
   openclose.setAttribute("onclick", "displayNav()");
   top.insertBefore(openclose, after);
+
+  let navimage = document.createElement("img");
+  navimage.setAttribute("id", "navbar");
+  navimage.setAttribute("src", "../../images/navimage.jpg");
+  navimage.setAttribute("style", "visibility: hidden; z-index: 9; position: absolute; border-radius: 10px; width: 375px; height: 187.5px; top: 50%; left: 50%; transform: translate(-50%, -50%);");
+  navimage.setAttribute("class", "full-nav");
+  navdiv.append(navimage);
   
   top.insertBefore(navdiv, after);
 }
