@@ -24,12 +24,20 @@ function makeNavbar(parent, child){
     c.append(button)
   }
   navdiv.append(c);
-  top.insertBefore(navdiv, after)
+
+  let openclose = document.createElement("button");
+  openclose.innerHTML = "Navigation";
+  openclose.setAttribute("onclick", "displayNav()");
+  openclose.insertBefore(navdiv, after);
+  
+  top.insertBefore(navdiv, after);
 }
 
-function openNav(){
-  document.getElementsByClassName("full-nav").style.visibility = "shown";
-}
-function closeNav(){
-  document.getElementsByClassName("full-nav").style.visibility = "hidden";
+function displayNav(){
+  if (document.getElementByClassName("full-nav").style.visibility = "hidden"){
+    document.getElementByClassName("full-nav").style.visibility = "shown";
+  }
+  else{
+    document.getElementByClassName("full-nav").style.visibility = "hidden";
+  }
 }
