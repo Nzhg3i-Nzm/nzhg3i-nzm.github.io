@@ -34,10 +34,11 @@ function makeNavbar(parent, child){
 }
 
 function displayNav(){
-  if (document.getElementByClassName("full-nav").style.visibility = "hidden"){
-    document.getElementByClassName("full-nav").style.visibility = "shown";
+  let vis = document.getElementsByClassName("full-nav").navbar.style.visibility;
+  if (vis = "hidden"){
+    vis = "visible";
   }
   else{
-    document.getElementByClassName("full-nav").style.visibility = "hidden";
+    vis = "hidden";
   }
 }
