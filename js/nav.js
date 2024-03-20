@@ -28,7 +28,7 @@ function makeNavbar(parent, child){
   let openclose = document.createElement("button");
   openclose.innerHTML = "Navigation";
   openclose.setAttribute("onclick", "displayNav()");
-  openclose.insertBefore(navdiv, after);
+  top.insertBefore(openclose, after);
   
   top.insertBefore(navdiv, after);
 }
