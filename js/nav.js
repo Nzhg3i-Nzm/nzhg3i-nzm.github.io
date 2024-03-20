@@ -8,8 +8,9 @@ function makeNavbar(parent, child){
   let after = document.getElementById(child);
   let navdiv = document.createElement("img");
   navdiv.setAttribute("id", "navbar");
-  navdiv.setAttribute("src", "../../images/navimage.jpg")
-  navdiv.setAttribute("style", "visibility: shown; z-index: 9; position: absolute; border-radius: 10px;")
+  navdiv.setAttribute("src", "../../images/navimage.jpg");
+  navdiv.setAttribute("style", "visibility: shown; z-index: 9; position: absolute; border-radius: 10px;");
+  navdiv.setAttribute("class", "full-nav");
   let c = document.createElement("center");
   for (w in words){
     let button = document.createElement("div");
@@ -24,4 +25,11 @@ function makeNavbar(parent, child){
   }
   navdiv.append(c);
   top.insertBefore(navdiv, after)
+}
+
+function openNav(){
+  document.getElementsByClassName("full-nav").style.visibility = "shown";
+}
+function closeNav(){
+  document.getElementsByClassName("full-nav").style.visibility = "hidden";
 }
