@@ -8,6 +8,7 @@
 #navbar{
   background-color: black;
   border-radius: 10px;
+  cursor: move;
 }
 .navbutton{
   text-align: center;
