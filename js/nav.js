@@ -19,15 +19,15 @@ function makeNavbar(parent, child){
   
   let c = document.createElement("center");
   let left = 0;
-  let top = 20;
+  let csstop = 20;
   for (w in words){
     let button = document.createElement("div");
     button.setAttribute("class", "navbutton");
-    button.setAttribute("style", "top: "+top+"; left: "+left+";");
+    button.setAttribute("style", "top: "+csstop+"; left: "+left+";");
 
     if left==30{
       left=0;
-      top+=20;
+      csstop+=20;
     }
     left+=30
     
