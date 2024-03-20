@@ -50,9 +50,14 @@ function makeNavbar(parent, child){
   openclose.append(buttontext);
   openclose.setAttribute("onclick", "displayNav()");
   center.append(openclose);
-  top.insertBefore(center, after);
+
+  let navhead = document.createElement("div");
+  navhead.setAttribute("id", "navhead");
+  navhead.append(center);
+  top.insertBefore(navhead, after);
   
   top.insertBefore(navdiv, after);
+
 }
 
 function displayNav(){
