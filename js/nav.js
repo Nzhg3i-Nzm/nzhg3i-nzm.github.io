@@ -31,8 +31,12 @@ function makeNavbar(parent, child){
   }
   navdiv.append(c);
 
-  let openclose = document.createElement("button");
-  openclose.innerHTML = "Navigation";
+  let openclose = document.createElement("div");
+  let buttontext = document.createElement("p");
+  buttontext.setAttribute("style", "display: inline; font-family: 'Kode Mono'");
+  buttontext.innerHTML = "Navigation";
+  openclose.setAttribute("class", "openclosebutton");
+  openclose.append(buttontext);
   openclose.setAttribute("onclick", "displayNav()");
   top.insertBefore(openclose, after);
   
