@@ -1,3 +1,9 @@
+#navhead{
+  height:30px;
+  background-color: powderblue;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
 #navbar{
   height:30px;
   background-color: black;
