@@ -10,10 +10,11 @@ function makeNavbar(parent, child){
   let navdiv = document.createElement("div");
   navdiv.setAttribute("id", "navbar");
   navdiv.setAttribute("class", "full-nav");
-  navdiv.setAttribute("style", "visibility: hidden; z-index: 9; position: absolute; border-radius: 10px; width: 375px; height: 187.5px; top: 50%; left: 50%; transform: translate(-50%, -50%);");
+  navdiv.setAttribute("style", "visibility: hidden; z-index: 9; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);");
   
   let navimage = document.createElement("img");
   navimage.setAttribute("src", "../../images/navimage.jpg");
+  navimage.setAttribute("style", "width: 375px; height: 187.5px; border-radius: 10px;");
   navdiv.append(navimage);
   
   let c = document.createElement("center");
