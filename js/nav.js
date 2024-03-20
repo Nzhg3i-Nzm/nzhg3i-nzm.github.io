@@ -9,7 +9,7 @@ function makeNavbar(parent, child){
   let navdiv = document.createElement("img");
   navdiv.setAttribute("id", "navbar");
   navdiv.setAttribute("src", "../../images/navimage.jpg")
-  navdiv.setAttribute("style", "visibility: shown; z-index: 9; position: absolute;")
+  navdiv.setAttribute("style", "visibility: shown; z-index: 9; position: absolute; border-radius: 10px;")
   let c = document.createElement("center");
   for (w in words){
     let button = document.createElement("div");
