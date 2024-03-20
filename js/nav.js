@@ -27,7 +27,7 @@ function makeNavbar(parent, child){
 
     left+=200
     if (left>=400){
-      left=0;
+      left=50;
       csstop+=40;
     }
     
