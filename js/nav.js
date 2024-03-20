@@ -18,9 +18,19 @@ function makeNavbar(parent, child){
   navdiv.append(navimage);
   
   let c = document.createElement("center");
+  let left = 0;
+  let top = 20;
   for (w in words){
     let button = document.createElement("div");
     button.setAttribute("class", "navbutton");
+    button.setAttribute("style", "top: "+top+"; left: "+left+";");
+
+    if left==30{
+      left=0;
+      top+=20;
+    }
+    left+=30
+    
     let l = "../../"+loc[w];
     button.setAttribute("onclick", "window.location.href='"+l+"'");
     let text = document.createElement("p");
