@@ -25,11 +25,11 @@ function makeNavbar(parent, child){
     button.setAttribute("class", "navbutton");
     button.setAttribute("style", "top: "+csstop+"; left: "+left+";");
 
-    if (left=200){
+    left+=100
+    if (left=400){
       left=0;
       csstop+=40;
     }
-    left+=100
     
     let l = "../../"+loc[w];
     button.setAttribute("onclick", "window.location.href='"+l+"'");
