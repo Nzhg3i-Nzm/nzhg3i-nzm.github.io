@@ -26,7 +26,7 @@ function makeNavbar(parent, child){
     button.setAttribute("style", "top: "+csstop+"; left: "+left+";");
 
     left+=100
-    if (left=400){
+    if (left==400){
       left=0;
       csstop+=40;
     }
@@ -57,7 +57,7 @@ function makeNavbar(parent, child){
 
 function displayNav(){
   let vis = document.getElementsByClassName("full-nav");
-  if (vis.navbar.style.visibility = "hidden"){
+  if (vis.navbar.style.visibility == "hidden"){
     vis.navbar.style.visibility = "visible";
   }
   else{
