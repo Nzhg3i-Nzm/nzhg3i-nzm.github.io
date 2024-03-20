@@ -58,6 +58,7 @@ function makeNavbar(parent, child){
   
   top.insertBefore(navdiv, after);
 
+  dragElement(document.getElementsByClassName("full-nav"));
 }
 
 function displayNav(){
