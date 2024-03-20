@@ -6,8 +6,10 @@ function makeNavbar(parent, child){
   //words and loc must have the same number of elements
   let top = document.getElementById(parent);
   let after = document.getElementById(child);
-  let navdiv = document.createElement("div");
+  let navdiv = document.createElement("img");
   navdiv.setAttribute("id", "navbar");
+  navdiv.setAttribute("src", "../../images/navimage.jpg")
+  navdiv.setAttribute("style", "visibility: hidden; z-index: 9")
   let c = document.createElement("center");
   for (w in words){
     let button = document.createElement("div");
