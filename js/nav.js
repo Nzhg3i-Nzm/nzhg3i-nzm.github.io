@@ -18,7 +18,7 @@ function makeNavbar(parent, child){
   navdiv.append(navimage);
   
   let c = document.createElement("center");
-  let left = 168.75;
+  let left = 84.375;
   let csstop = 50;
   for (w in words){
     let button = document.createElement("div");
@@ -27,7 +27,7 @@ function makeNavbar(parent, child){
 
     left+=200
     if (left>=400){
-      left=168.75;
+      left=84.375;
       csstop+=40;
     }
     
