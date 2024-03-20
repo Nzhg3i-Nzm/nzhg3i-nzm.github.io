@@ -25,7 +25,7 @@ function makeNavbar(parent, child){
     button.setAttribute("class", "navbutton");
     button.setAttribute("style", "top: "+csstop+"; left: "+left+";");
 
-    if left==30{
+    if (left=30){
       left=0;
       csstop+=20;
     }
