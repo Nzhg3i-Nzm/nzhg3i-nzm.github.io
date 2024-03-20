@@ -14,7 +14,7 @@ function makeNavbar(parent, child){
   
   let navimage = document.createElement("img");
   navimage.setAttribute("src", "../../images/navimage.jpg");
-  navimage.setAttribute("style", "width: 375px; height: 187.5px; border-radius: 10px;");
+  navimage.setAttribute("style", "width: 562.5px; height: 281.25px; border-radius: 10px;");
   navdiv.append(navimage);
   
   let c = document.createElement("center");
@@ -25,7 +25,7 @@ function makeNavbar(parent, child){
     button.setAttribute("class", "navbutton");
     button.setAttribute("style", "top: "+csstop+"; left: "+left+";");
 
-    left+=100
+    left+=200
     if (left==400){
       left=0;
       csstop+=40;
