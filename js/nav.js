@@ -63,7 +63,7 @@ function makeNavbar(parent, child){
 
 windowmode = true;
 
-function windowMode(name, url){
+function makeWindow(name, url){
   if (windowmode==true){
     head = document.createElement("div");
     head.setAttribute("style", "background-color: lime; width: 500px; height: 200px; position: absolute;");
@@ -80,9 +80,6 @@ function windowMode(name, url){
     
     document.body.appendChild(head);
     dragElement(document.getElementById(name+"_window"));
-  }
-  else{
-    windowmode=true;
   }
 }
 
