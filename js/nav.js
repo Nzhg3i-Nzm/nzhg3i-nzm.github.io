@@ -54,6 +54,7 @@ function makeNavbar(parent, child){
 
   label = document.createElement("label");
   label.setAttribute("class", "switch");
+  label.setAttribute("style", "display: inline-block");
   input = document.createElement("input");
   input.setAttribute("type", "checkbox");
   span = document.createElement("span");
@@ -63,6 +64,7 @@ function makeNavbar(parent, child){
   label.append(span);
 
   windowtext = document.createElement("p");
+  windowtext.setAttribute("style", "inline-block; padding: 2px; font-family: 'Kode Mono';");
   windowtext.innerHTML = "Window Mode: ";
 
   center.append(windowtext);
