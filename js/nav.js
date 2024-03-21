@@ -84,6 +84,7 @@ function setWindowMode(){
   else{
     windowmode = true;
   }
+}
 
 function navAction(name, url){
   if (windowmode==true){
@@ -92,6 +93,7 @@ function navAction(name, url){
   else{
     window.location.href = "../../"+url;
   }
+}
   
 function makeWindow(name, url){
   if (windowmode==true){
