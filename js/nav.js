@@ -103,7 +103,7 @@ function navAction(name, url){
 function makeWindow(name, url){
   if (windowmode==true){
     head = document.createElement("div");
-    head.setAttribute("style", "background-color: lime; width: 500px; height: 100px; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); border-top-left-radius: 10px; border-top-right-radius: 10px;");
+    head.setAttribute("style", "background-color: black; width: 500px; height: 100px; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); border-top-left-radius: 10px; border-top-right-radius: 10px;");
     head.setAttribute("id", name+"_window");
     headtext = document.createElement("p");
     headtext.innerHTML = name;
