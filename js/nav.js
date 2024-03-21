@@ -118,10 +118,9 @@ function makeWindow(name, url){
     head.append(close);
     
     div = document.createElement("div");
-    div.setAttribute("style", "border-bottom-left-radius: 10px; border-bottom-right-radius: 10px;");
     iframe = document.createElement("iframe");
     iframe.setAttribute("src", "../../"+url);
-    iframe.setAttribute("style", "width: 750px; height: 400px; border: none;");
+    iframe.setAttribute("style", "width: 750px; height: 400px; border: none; border-bottom-left-radius: 10px; border-bottom-right-radius: 10px;");
     div.append(iframe);
     head.append(div);
     
