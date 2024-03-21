@@ -66,7 +66,7 @@ windowmode = true;
 function makeWindow(name, url){
   if (windowmode==true){
     head = document.createElement("div");
-    head.setAttribute("style", "background-color: lime; width: 500px; height: 200px; position: absolute;");
+    head.setAttribute("style", "background-color: lime; width: 500px; height: 200px; position: absolute; border-top-left-radius: 10px; border-top-right-radius: 10px;");
     head.setAttribute("id", name+"_window");
     headtext = document.createElement("p");
     headtext.innerHTML = name;
