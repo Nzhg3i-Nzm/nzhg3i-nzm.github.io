@@ -120,7 +120,7 @@ function makeWindow(name, url){
     div = document.createElement("div");
     iframe = document.createElement("iframe");
     iframe.setAttribute("src", "../../"+url);
-    iframe.setAttribute("style", "width: 750px; height: 400px;");
+    iframe.setAttribute("style", "width: 750px; height: 400px; border: none; border-bottom-left-radius: 10px; border-bottom-right-radius: 10px;");
     div.append(iframe);
     head.append(div);
     
