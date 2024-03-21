@@ -88,9 +88,9 @@ function makeWindow(name, url){
     head.append(div);
     
     document.body.appendChild(head);
-    windows.push(name+"_window");
+    windows.push(name);
     windowcount+=1;
-    dragElement(document.getElementById(name+));
+    dragElement(document.getElementById(name+"_window"));
   }
 }
 
