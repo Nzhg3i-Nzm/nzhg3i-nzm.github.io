@@ -59,8 +59,8 @@ function makeNavbar(parent, child){
   span = document.createElement("span");
   span.setAttribute("class", "slider round");
   span.setAttribute("onclick", "setWindowMode()");
-  input.append(span);
   label.append(input);
+  label.append(span);
   center.append(label);
   
   let navhead = document.createElement("div");
