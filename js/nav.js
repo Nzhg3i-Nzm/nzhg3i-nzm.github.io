@@ -64,7 +64,7 @@ function makeNavbar(parent, child){
   label.append(span);
 
   windowtext = document.createElement("p");
-  windowtext.setAttribute("style", "inline-block; padding: 2px; font-family: 'Kode Mono';");
+  windowtext.setAttribute("style", "display: inline-block; padding: 2px; font-family: 'Kode Mono';");
   windowtext.innerHTML = "Window Mode: ";
 
   center.append(windowtext);
