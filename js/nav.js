@@ -68,7 +68,7 @@ windowcount = 0;
 function makeWindow(name, url){
   if (windowmode==true){
     head = document.createElement("div");
-    head.setAttribute("style", "background-color: lime; width: 500px; height: 200px; position: absolute; border-top-left-radius: 10px; border-top-right-radius: 10px;");
+    head.setAttribute("style", "background-color: lime; width: 500px; height: 100px; position: absolute; border-top-left-radius: 10px; border-top-right-radius: 10px;");
     head.setAttribute("id", name+"_window");
     headtext = document.createElement("p");
     headtext.innerHTML = name;
@@ -76,7 +76,7 @@ function makeWindow(name, url){
 
     close = document.createElement("img");
     close.setAttribute("src", "../../images/close.png");
-    close.setAttribute("style", "width: 50px; height: 50px; float: right;");
+    close.setAttribute("style", "width: 50px; height: 50px; float: right; margin-top: -5px;");
     close.setAttribute("onclick", "removeWindow(\'"+name+"\', "+windowcount+")");
     head.append(close);
     
