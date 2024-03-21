@@ -32,7 +32,7 @@ function makeNavbar(parent, child){
     }
     
     let l = "../../"+loc[w];
-    button.setAttribute("onclick", "window.location.href='"+l+"'");
+    button.setAttribute("onclick", "navAction(\'"+words[w]+"\', \'"+l+"\'");
     let text = document.createElement("p");
     text.setAttribute("style", "display: inline; font-family: 'Kode Mono'");
     text.innerHTML=words[w];
@@ -51,6 +51,18 @@ function makeNavbar(parent, child){
   openclose.setAttribute("onclick", "displayNav()");
   center.append(openclose);
 
+
+  label = document.createElement("label");
+  label.setAttribute("class", "switch");
+  input = document.createElement("input");
+  input.setAttribute("type", "checkbox");
+  span = document.createElement("span");
+  span.setAttribute("class", "slider round");
+  span.setAttribute("onclick", "setWindowMode()");
+  input.append(span);
+  label.append(input);
+  center.append(label);
+  
   let navhead = document.createElement("div");
   navhead.setAttribute("id", "navhead");
   navhead.append(center);
@@ -65,6 +77,22 @@ windowmode = true;
 windows = [];
 windowcount = 0;
 
+function setWindowMode(){
+  if (windowmode==true){
+    windowmode = false;
+  }
+  else{
+    windowmode = true;
+  }
+
+function navAction(name, url){
+  if (windowmode==true){
+    makeWindow(name, url);
+  }
+  else{
+    window.location.href = "../../"+url;
+  }
+  
 function makeWindow(name, url){
   if (windowmode==true){
     head = document.createElement("div");
