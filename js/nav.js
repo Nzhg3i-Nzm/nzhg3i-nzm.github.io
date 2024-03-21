@@ -61,6 +61,11 @@ function makeNavbar(parent, child){
   span.setAttribute("onclick", "setWindowMode()");
   label.append(input);
   label.append(span);
+
+  windowtext = document.createElement("p");
+  windowtext.innerHTML = "Window Mode: ";
+
+  center.append(windowtext);
   center.append(label);
   
   let navhead = document.createElement("div");
