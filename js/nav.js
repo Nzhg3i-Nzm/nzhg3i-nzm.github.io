@@ -32,7 +32,7 @@ function makeNavbar(parent, child){
     }
     
     let l = "../../"+loc[w];
-    button.setAttribute("onclick", "navAction(\'"+words[w]+"\', \'"+l+"\'");
+    button.setAttribute("onclick", "navAction(\'"+words[w]+"\', \'"+l+"\')");
     let text = document.createElement("p");
     text.setAttribute("style", "display: inline; font-family: 'Kode Mono'");
     text.innerHTML=words[w];
