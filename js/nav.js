@@ -62,6 +62,8 @@ function makeNavbar(parent, child){
 }
 
 windowmode = true;
+windows = [];
+windowcount = 0;
 
 function makeWindow(name, url){
   if (windowmode==true){
@@ -71,6 +73,13 @@ function makeWindow(name, url){
     headtext = document.createElement("p");
     headtext.innerHTML = name;
     head.append(headtext);
+
+    close = document.createElement("img");
+    close.setAttribute("src", "../../images/close.png");
+    close.setAttribute("style", "width: 50px; height: 50px; float: right;");
+    close.setAttribute("onclick", "removeWindow(\'"+name+"\', "+windowcount+")");
+    head.append(close);
+    
     div = document.createElement("div");
     iframe = document.createElement("iframe");
     iframe.setAttribute("src", "../../"+url);
@@ -79,8 +88,18 @@ function makeWindow(name, url){
     head.append(div);
     
     document.body.appendChild(head);
-    dragElement(document.getElementById(name+"_window"));
+    windows.push(name+"_window");
+    windowcount+=1;
+    dragElement(document.getElementById(name+));
   }
+}
+
+function removeWindow(name, index){
+  document.getElementById(name+"_window");
+  firsthalf = windows.slice(0, index);
+  secondhalf = windows(index);
+  windows = firsthalf.concat(secondhalf);
+  windowcount-=1;
 }
 
 function displayNav(){
