@@ -95,9 +95,9 @@ function makeWindow(name, url){
 }
 
 function removeWindow(name, index){
-  document.getElementById(name+"_window");
+  document.getElementById(name+"_window").remove();
   firsthalf = windows.slice(0, index);
-  secondhalf = windows(index);
+  secondhalf = windows.slice(index+1, windows.length);
   windows = firsthalf.concat(secondhalf);
   windowcount-=1;
 }
