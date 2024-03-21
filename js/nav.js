@@ -66,18 +66,20 @@ windowmode = true;
 function windowMode(name, url){
   if (windowmode==true){
     head = document.createElement("div");
-    head.setAttribute("style", "background-color: black; width: 500px; height: 200px;");
+    head.setAttribute("style", "background-color: black; width: 500px; height: 200px; position: absolute;");
+    head.setAttribute("id", name+"_window");
     headtext = document.createElement("p");
     headtext.innerHTML = name;
     head.append(headtext);
     div = document.createElement("div");
-    div.setAttribute("style", "position: absolute;");
     iframe = document.createElement("iframe");
     iframe.setAttribute("src", "../../"+url);
     iframe.setAttribute("style", "width: 500px; height: 500px;");
     div.append(iframe);
     head.append(div);
+    
     document.body.appendChild(head);
+    dragElement(document.getElementById(name+"_window"));
   }
   else{
     windowmode=true;
