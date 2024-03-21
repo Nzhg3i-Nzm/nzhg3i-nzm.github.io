@@ -73,7 +73,7 @@ function makeNavbar(parent, child){
   dragElement(document.getElementById("navbar"));
 }
 
-windowmode = true;
+windowmode = false;
 windows = [];
 windowcount = 0;
 
