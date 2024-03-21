@@ -118,7 +118,7 @@ function makeWindow(name, url){
     div = document.createElement("div");
     iframe = document.createElement("iframe");
     iframe.setAttribute("src", "../../"+url);
-    iframe.setAttribute("style", "width: 500px; height: 500px;");
+    iframe.setAttribute("style", "width: 750px; height: 400px;");
     div.append(iframe);
     head.append(div);
     
