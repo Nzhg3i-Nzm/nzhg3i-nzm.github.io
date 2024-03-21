@@ -61,6 +61,29 @@ function makeNavbar(parent, child){
   dragElement(document.getElementById("navbar"));
 }
 
+windowmode = true;
+
+function windowMode(name, url){
+  if (windowmode==true){
+    head = document.createElement("div");
+    head.setAttribute("style", "background-color: black; width: 500px; height: 200px;");
+    headtext = document.createElement("p");
+    headtext.innerHTML = name;
+    head.append(headtext);
+    div = document.createElement("div");
+    div.setAttribute("style", "position: absolute;");
+    iframe = document.createElement("iframe");
+    iframe.setAttribute("src", "../../"+url);
+    iframe.setAttribute("style", "width: 500px; height: 500px;");
+    div.append(iframe);
+    head.append(div);
+    document.body.appendChild(head);
+  }
+  else{
+    windowmode=true;
+  }
+}
+
 function displayNav(){
   let vis = document.getElementsByClassName("full-nav");
   if (vis.navbar.style.visibility == "hidden"){
