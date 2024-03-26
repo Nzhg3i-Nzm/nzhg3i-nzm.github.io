@@ -108,6 +108,7 @@ function makeWindow(name, url){
     head.setAttribute("style", "background-color: black; color: white; cursor: move; font-family: 'Kode Mono'; width: 750px; height: 100px; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); border-top-left-radius: 10px; border-top-right-radius: 10px;");
     head.setAttribute("id", name+"_window");
     headtext = document.createElement("p");
+    headtext.setAttribute("style", "display: inline-block;");
     headtext.innerHTML = name;
     head.append(headtext);
 
