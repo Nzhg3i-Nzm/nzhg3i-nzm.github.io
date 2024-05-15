@@ -1,10 +1,11 @@
 {
-  "API Misconfig.":2,
-  "Business Logic Error":1,
+  "Account Takeover": 1,
+  "API Misconfig.": 2,
+  "Business Logic Error": 1,
   "Captcha Bypass": 1,
-  "Cleartext Transmission of Sens. Info.":1,
+  "Cleartext Transmission of Sens. Info.": 1,
   "Clickjacking": 1,
-  "Content Spoofing/HTML Injection": 8,
+  "Content Spoofing/HTML Injection": 9,
   "Data Spoofing (views, likes, etc.)": 1,
   "DOS": 2,
   "Hardcoded Credentials": 1,
@@ -22,5 +23,5 @@
   "Unrestricted File Upload": 2,
   "Username Enumeration": 1,
   "XSS, Reflected": 5,
-  "XSS, Stored": 0
+  "XSS, Stored": 1
 }
