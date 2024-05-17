@@ -16,12 +16,12 @@
   "No Rate Limiting": 2,
   "Open Redirect": 3,
   "Session Hijacking": 1,
-  "SQL Injection": 2,
+  "SQL Injection": 3,
   "SSRF": 1,
   "SSRF, Blind": 3,
   "Subdomain Takeover": 0,
   "Unrestricted File Upload": 2,
   "Username Enumeration": 1,
-  "XSS, Reflected": 5,
+  "XSS, Reflected": 7,
   "XSS, Stored": 1
 }
