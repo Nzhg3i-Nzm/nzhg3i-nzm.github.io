@@ -3,9 +3,9 @@
   "API Misconfig.": 2,
   "Business Logic Error": 1,
   "Captcha Bypass": 1,
-  "Cleartext Transmission of Sens. Info.": 1,
+  "Cleartext Transmission of Sens. Info.": 2,
   "Clickjacking": 1,
-  "Content Spoofing/HTML Injection": 9,
+  "Content Spoofing/HTML Injection": 11,
   "Data Spoofing (views, likes, etc.)": 1,
   "DOS": 2,
   "Hardcoded Credentials": 1,
@@ -18,10 +18,10 @@
   "Session Hijacking": 1,
   "SQL Injection": 3,
   "SSRF": 1,
-  "SSRF, Blind": 3,
+  "SSRF, Blind": 2,
   "Subdomain Takeover": 0,
   "Unrestricted File Upload": 2,
   "Username Enumeration": 1,
-  "XSS, Reflected": 7,
-  "XSS, Stored": 1
+  "XSS, Reflected": 8,
+  "XSS, Stored": 2
 }
